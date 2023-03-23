@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+
+  display: flex;
+}
+
+nav ul li {
+
+  list-style: none;
+  padding: 15px;
+  background-color: gold;
+  margin: 5px;
+}
+
+nav {
+
+  margin-left: 0;
+  width: 35%;
+  font-size: 150%;
+}
+
+@media (max-width: 768px) {
+
+  .row {
+    flex-direction: column;
+  }
+nav ul li {
+
+  display: inline;
+}
+  
+}
+
+@media (max-width: 480px) {
+
+  .row {
+  display: block;
+  }
+  
+}
+
+#zodiac {
+
+  max-width: 100%;
+  height: auto;
+  border: 10px solid red;
+}
+
+#zodiac:hover {
+
+  border: 10px solid navy
+
+}
+
+h2 {
+
+  background-color: lightgoldenrodyellow;
+}
+
+h1 {
+
+  text-align: center;
+  background-color: navy;
+  color: white;  
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+}
+
+#animals {
+
+  background-color: #fbfbef
+;
+}
+
+#fb {
+
+  font-size: 150%;
+}
+
