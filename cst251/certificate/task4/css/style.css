@@ -57,7 +57,7 @@ header {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   header {
     flex-wrap: wrap;
   }
@@ -67,7 +67,7 @@ header {
   width: 60vw;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .logo {
     margin-top: 15px;
     width: 100%;
@@ -86,7 +86,7 @@ header {
   margin-left: 20px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .logo img {
     margin: 0 auto;
   }
@@ -96,7 +96,7 @@ nav {
   font-weight: 400;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   nav {
     margin-top: 10px;
     width: 100%;
@@ -118,7 +118,7 @@ nav ul {
   justify-content: space-around;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   nav ul {
     flex-direction: column;
   }
@@ -137,7 +137,7 @@ nav ul {
   padding: 5px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 480px) {
   #features .desc {
     width: 100%;
     text-align: center;
@@ -146,7 +146,7 @@ nav ul {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   #features {
     margin-top: 0;
   }
@@ -214,7 +214,7 @@ nav ul {
   background-color: #FF0000;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
   #pricing {
     flex-direction: column;
   }
